@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse.otf);
+  }
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+* {
+    background-color: inherit;
+    color: white;
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+body {
+    margin: 0;
+    background-color: #646464;
+}
+
+.content {
+    margin: 0 auto 0;
+}
+
+.plink, .plink a {
+    color: darkgray;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.header, .header2 {
+    text-align: center;
+    font-size: 48px;
+    background-color: #494949;
+    margin: 0 auto 90px;
+    border-bottom: 2px solid black;
+}
+
+.header p, .header2 p {
+    font-family: "Norse";
+    padding: 10px;
+    margin: 0;
+}
+
+.header p {
+    padding-bottom: 20px;
+}
+
+.header2 {
+    height: 380px;
+}
+
+.header img, .header2 img {
+    padding: 8px;
+
+}
+
+.navigate{
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.title {
+    display: inline-block;
+    text-align: center;
+}
+
+.imgp {
+    font-size: 36px;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+.selection {
+    text-align: center;
+}
+
+.fooddiv {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.fooddiv a {
+    font-family: "Norse";
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #cc9543;
+}
+
+.maincontent {
+    background-color: #646464;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.maincontent ul, .maincontent ol{
+    display: inline-block;
+}
+
+.ingredients {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0px 0px 40px 80px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #494949;
+    text-align: left;
+}
+
+.ingredients h2 {
+    font-family: "Norse";
+    margin: 0px 0px 8px 0px;
+}
+
+.ingredients li {
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maincontent ol {
+
+}
+
+.directions {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 20px;
+    width: 779px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 0px 0px 20px;
+    background-color: #494949;
+    padding: 10px;
+    text-align: left;
+}
+
+.directions h2 {
+    font-family: "Norse";
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.directions ol {
+    margin: 0 0 20px 0;
+}
+
+.directions, .directions li{
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
