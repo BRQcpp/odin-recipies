@@ -14,9 +14,14 @@
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;;
 }
 
+a {
+    color: white;
+}
+
 body {
     margin: 0;
     background-color: #646464;
+    min-height: 100vh;
 }
 
 .content {
@@ -51,9 +56,20 @@ body {
     height: 380px;
 }
 
-.header img, .header2 img {
+.header img {
     padding: 8px;
+}
 
+.header2 .foodimg, .header2 .foodimgheader {
+    margin-top: 20px;
+}
+
+.foodimg:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .navigate{
@@ -152,4 +168,13 @@ body {
 
 .directions, .directions li{
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foodimg, .foodimgheader {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(12, 12, 14, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(12, 12, 14, 1);
+    box-shadow: 0px 0px 24px 0px rgba(12, 12, 14, 1);
+    transition-duration: 500ms;
 }
